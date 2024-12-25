@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+
+html{
+  font-family: sans-serif;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+  background-color: #a0a5f688;
+}
+
+.little-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+  background-color: #222;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+h2{
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+p{
+  color: #fff;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.input{
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  margin-right: 10px;
+  background-color: #222;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+button{
+  padding: 8px 18px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn{
+  color: #fff;
+  background-color: #04AA6D;
+  padding: 10px;
+}
+
+li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;  padding-bottom: 10px;
+}
+
+li:not(:last-child){
+  border-bottom: 1px solid #fff;
+}
+
+.editBtn {
+  background-color: dodgerblue;
+}
+
+.editBtn:hover {
+  background-color: rgba(30, 143, 255, 0.566);
+}
+
+.deleteBtn {
+  background-color: tomato;
+}
+
+.deleteBtn:hover {
+  background-color: #ff63479c;
+}
+
+span{
+  font-weight: 700;
+  text-transform: capitalize;
+}
